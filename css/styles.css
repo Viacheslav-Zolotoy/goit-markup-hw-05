@@ -307,7 +307,7 @@ img {
   position: absolute;
   top: 24px;
   right: 24px;
-  border: 1px solid var(--modal-buttonclose-border);
+  cursor: pointer;
 }
 
 /* Work */
