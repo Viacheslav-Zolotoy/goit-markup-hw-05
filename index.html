@@ -24,7 +24,7 @@
           >
           <!-- Nav-Title -->
           <ul class="nav-title">
-            <li class="nav-li">
+            <li class="nav-li line">
               <a class="nav-link decor studio" href="./index.html">Studio</a>
             </li>
             <li class="nav-li">
@@ -61,7 +61,17 @@
             Effective Solutions <br />
             for Your Business
           </h1>
-          <button class="hero-button" type="button">Order Service</button>
+          <button class="hero-button" data-modal-open type="button">
+            Order Service
+          </button>
+        </div>
+        <!-- Modal -->
+        <div class="backdrop is-hidden" data-modal>
+          <div class="modal">
+            <svg class="button-close" width="24" height="24" data-modal-close>
+              <use href="./images/symbol-defs.svg#icon-close"></use>
+            </svg>
+          </div>
         </div>
       </section>
       <!-- Work -->
@@ -470,5 +480,6 @@
         </div>
       </div>
     </footer>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
