@@ -309,12 +309,18 @@ img {
   top: 24px;
   right: 24px;
   cursor: pointer;
+  fill: var(--black-color);
+  border-radius: 50%;
+  border: 1px solid var(--border-icon-color);
+  background-color: var(--footer-text-color);
 }
 
 .button-close:focus,
-.button-close:hover {
-  --color3: var(--active-accent-color);
-  --color4: var(--primary-white-color);
+.button-close:hover,
+.border-close:active {
+  fill: var(--primary-white-color);
+  background-color: var(--active-accent-color);
+  border: none;
 }
 
 /* Work */
